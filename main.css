@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  flex-flow: wrap;
+  margin: 0;
+
+  font-family: 'Roboto', serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+body > * { flex: 1 200%; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+
+  color: #ee7f00;
+
+  background-color: #051440;
+}
+
+h1 { font-size: 1em; }
+
+img { width: 150px; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmed {
+  height: 14.5vh;
+
+  background-color: #ee964b;
+}
+
+.deaths-recovered {
+  height: 14.5vh;
+
+  background-color: #f95738;
+}
+
+.gueri {
+  height: 14.5vh;
+
+  background-color: #ebebd3;
+}
+
+.tests {
+  height: 14.5vh;
+
+  background-color: #f4d35e;
+}
+
+.population {
+  height: 14.5vh;
+
+  background-color: #083d77;
+}
+
+
+
+.number {
+  font-size: 2px;
+  font-weight: bold;
+}
+
+.info {
+  margin-top: 1;
+
+  font-size: 1.5em;
+}
+
+
+
+a:hover { color: #4b99b8; }
+
+@media all and (min-width: 20px) {
+  body > * { height: 20vh !important; }
+
+  section { flex: 1 0 0; }
+
+  img { width: 0px; }
+
+  .number { font-size: 50px; }
+
+  .info { font-size: 1.5em; }
+
+  footer {
+    flex: 1 70%;
+    height: 3vh !important;
+  }
+}
+
+footer {
+  color: #00b3fa;
+
+  background-color: #051d40;
+}
+
+a {
+  text-decoration: none;
+  color: #d1c518;
+}
+
+
+
+
+
+
+
+
+
